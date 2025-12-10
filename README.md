@@ -35,14 +35,23 @@
 ---
 ### Структура проекта
 |── SourceTexts/                ← сюда кладёте .txt файлы (ANSI!)
+
 ├── TRPO_Records/               ← сюда сохраняются результаты
+
 ├── Header.h                    ← центральный заголовок
+
 ├── Struct.h                    ← структуры данных
+
 ├── trie.h / trie.cpp           ← префиксное дерево (сердце проекта)
+
 ├── file_reader.h / .cpp        ← чтение и нормализация слов
+
 ├── menu.h / menu.cpp           ← весь интерфейс
+
 ├── output.h / output.cpp       ← красивый вывод и сохранение
+
 ├── utils.h / utils.cpp         ← input_data_reader, contains_only и др.
+
 └── main.cpp                    ← точка входа
 
 
